@@ -153,19 +153,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+
+| RF-001 | Permitir que o usuário cadastre tarefas  | ALTA|
+| RF-002 | Permitir que o usuário crie um cadastro para o bebe  | ALTA|
+
+| RF-003 | Permitir que o usuário tenha uma ficha de vacina do bebe  | ALTA|
+| RF-004 | Permitir que o usuário tenha acesso a um blog  | MÉDIA|
+
+| RF-005 | Permitir que profissionais cadastrem novas dicas | MEDIA|
+| RF-006 | Permitir que o usuário tenha acesso a um chat com profissionais| MÉDIA|
+
 
 ### Requisitos não Funcionais
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
+| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
+| RNF-002 | O sistema deve utilizar armazenamento em cache para reduzir o consumo de dados móveis|BAIXA|
+
+| RNF-003 | O sistema deve se adaptar a diversos tamanhos,tipos e telas | ALTA |
+| RNF-004 | O sistema deve ter modos com temas claros e escuros |BAIXA|
+
+| RNF-005 | O sistema deve ter uma segurança nos dados dos pais e bebes | MÉDIA |
+| RNF-006 |  O sistema deve ser acessível via navegador (Web) |ALTA|
+
+
+
 >
 > Os requisitos de um projeto são classificados em dois grupos:
 >
