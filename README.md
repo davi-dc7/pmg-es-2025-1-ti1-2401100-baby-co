@@ -16,8 +16,9 @@ Marcelo Esteves Bernardi
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+Diego Augusto de Faria Barros
+Michelle Hanne Soares de Andrade
+
 
 
 
