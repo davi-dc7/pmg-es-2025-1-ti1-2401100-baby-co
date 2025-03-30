@@ -119,12 +119,23 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 ## Histórias de Usuários
 
-Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+
 
 | EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
+
+
+| Pai/mae   |preciso de artigos sobre cuidados durante e pós-gravidez |Sempre me manter atualizado |
+| Pai                  | preciso de uma pagina com blogs de pais antigos| Poder me atualizar de dicas |
+
+
+| Usuário do sistema   |preciso de conteudos de especialistas| Tirar minhas duvidas |
+| Mae                 | preciso de uma pagina com blogs de Maes antigos| Poder me atualizar de dicas |
+
+
+| Médico   |preciso de uma área de para inserir dados,dicas e conteudos |Ajudar os pais |
+| Pai/mae               | preciso de uma área de pesquisa| Poder pesquisar sobre diversos assuntos |
+
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
@@ -139,10 +150,8 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 **✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
-
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
-
+![3](https://github.com/user-attachments/assets/7144f9ed-d19d-4853-aced-687ccd9a6222)
+![p2](https://github.com/user-attachments/assets/ac55fd55-4ff1-430e-beab-5d5e71ddbfd2)
 ![mp1](https://github.com/user-attachments/assets/02b8932e-abef-4a08-ba12-8d3fa0f33160)
 
 
