@@ -2,13 +2,18 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
+ Baby Connect
 * **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
-* **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+
+Mateus Marçal Ribas Marques
+Gabriel Felipe Santos de Souza
+André Fortini de Mello
+Ruan Alberto Silva
+Davi D'Assunçao Coelho
+Vinicius Fernandes Mantini
+Guilherme Horta Dias
+Marcelo Esteves Bernardi
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -25,33 +30,20 @@ A documentação do projeto é estruturada da seguinte forma:
 # Contexto
 
 Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa e público-alvo.
-
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Problema
+A chegada de um bebê representa uma fase de profundas mudanças e desafios, especialmente para pais de primeira viagem. Nesse período, é comum que esses pais enfrentem sentimentos de insegurança, dúvidas constantes e dificuldades em lidar com tarefas básicas relacionadas aos cuidados com o recém-nascido, como amamentação, troca de fraldas, rotina de sono, vacinação, consultas pediátricas e acompanhamento do desenvolvimento infantil.
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+Além disso, o excesso de informações disponíveis na internet — muitas vezes contraditórias ou sem comprovação científica — contribui para aumentar a ansiedade dos pais, dificultando a tomada de decisões seguras e conscientes. Em um cenário onde o tempo é escasso, a carga emocional é alta e a rotina exige organização constante, a falta de apoio prático e confiável pode impactar negativamente a experiência parental e o bem-estar da criança.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Objetivos
+Desenvolver um software voltado para pais de primeira viagem com o objetivo de auxiliá-los na organização da rotina, no acompanhamento do desenvolvimento do bebê e na obtenção de informações confiáveis sobre cuidados infantis, contribuindo para uma experiência parental mais segura e informada.
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+Objetivos Específicos
+Investigar as principais dificuldades enfrentadas por pais de primeira viagem nos cuidados com recém-nascidos, por meio de pesquisa exploratória com o público-alvo.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+Estruturar um sistema funcional capaz de registrar e organizar dados relevantes da rotina do bebê, como alimentação, sono, consultas médicas e vacinação.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Justificativa
 
 **✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
@@ -65,7 +57,7 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 > **Orientações**:
 >
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Público-Alvo
 
 **✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
