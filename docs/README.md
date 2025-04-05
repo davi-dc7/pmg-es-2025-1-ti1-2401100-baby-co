@@ -7,7 +7,7 @@ https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-1-ti1-2401100-baby-co.git
 
 
 Mateus Marçal Ribas Marques
-Gabriel Felipe Santos de Souza
+Gabriel Felipe Santos de Sousa
 André Fortini de Mello
 Ruan Alberto Silva
 Davi D'Assunçao Coelho
