@@ -3,7 +3,7 @@
 Informações básicas do projeto.
 
  Baby Connect
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-1-ti1-2401100-baby-co.git
 
 
 Mateus Marçal Ribas Marques
@@ -46,33 +46,24 @@ Estruturar um sistema funcional capaz de registrar e organizar dados relevantes 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+Justificativa
+O projeto foi motivado pela percepção de que muitos pais de primeira viagem enfrentam dificuldades para lidar com os desafios da maternidade e paternidade, especialmente nos primeiros meses de vida do bebê. Situações como falta de informações confiáveis, dificuldade em organizar a rotina do bebê e o excesso de conteúdo desencontrado na internet geram insegurança e estresse nos cuidadores.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Com isso em mente, o objetivo do projeto é desenvolver um aplicativo que auxilie os pais a monitorar e registrar atividades importantes do bebê, como alimentação, sono, vacinas, trocas de fralda e dicas de cuidados. A proposta é oferecer um sistema intuitivo, em português e adaptado à realidade brasileira, para facilitar o dia a dia da família.
+
+O público-alvo deste projeto são pais e mães de primeira viagem, especialmente entre 20 e 40 anos, que buscam apoio prático e informativo no cuidado com seus filhos recém-nascidos. O aplicativo também poderá ser útil para cuidadores e familiares próximos envolvidos com os cuidados diários do bebê.
+
+Para validar a necessidade do projeto, foram consultadas fontes como dados estatísticos do IBGE e Ministério da Saúde, além da análise de aplicativos semelhantes já disponíveis no mercado, como o Baby Connect. Também foram realizadas entrevistas com pais recentes para entender melhor suas principais dificuldades e desejos em relação a um app de apoio parental. Esses dados forneceram a base para o planejamento e definição das funcionalidades da aplicação.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A aplicação foi pensada especialmente para pais de primeira viagem — pessoas que estão vivenciando a experiência de cuidar de um bebê pela primeira vez. Esse público costuma enfrentar muitas dúvidas, inseguranças e dificuldades no dia a dia, principalmente nos primeiros meses após o nascimento da criança.
 
+Os usuários da aplicação geralmente buscam apoio, informações claras e formas de se organizarem melhor com a nova rotina que envolve alimentação, sono, saúde e bem-estar do bebê. Além dos pais, outros cuidadores próximos, como familiares que ajudam nas tarefas com o bebê, também poderão fazer uso do sistema.
+
+A proposta é atender um público que deseja se sentir mais seguro, orientado e preparado para lidar com os desafios e responsabilidades da parentalidade, mesmo sem ter experiência anterior.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 # Product Discovery
 
 ## Etapa de Entendimento
