@@ -7,7 +7,7 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 Mateus Marçal Ribas Marques
 André Fortini de Mello
-Gabriel Felipe Santos de Souza
+Gabriel Felipe Santos de Sousa
 Ruan Alberto Silva
 Davi De Assunçao Coelho
 Vinicius Fernandes Mantini
