@@ -2,26 +2,26 @@ cff-version: 1.0.1
 message: Please cite this software using these metadata.
 title: 
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
-  - name-suffix: Professor
+  - family-names: Ribas
+    given-names:  Mateus
+  - family-names: Fortini 
+    given-names:  André
+  - family-names: Felipe
+    given-names: Gabriel
+  - family-names: Alberto
+    given-names: Ruan
+  - family-names: D'assunçao
+    given-names: Davi
+  - family-names: Fernandes
+    given-names: Vinicius
+  - name-suffix: Diego Augusto
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
+    family-names: Horta
+    given-names: Guilherme
+  - name-suffix: Michele Hanne
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Esteves
+    given-names: Marcelo
 keywords:
   - 
   - 
