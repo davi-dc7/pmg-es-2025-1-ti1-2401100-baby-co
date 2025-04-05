@@ -68,33 +68,20 @@ ________________________________________________________________________________
 
 ## Etapa de Entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
->
-> * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas;
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
 
-## Etapa de Definição
+![image](https://github.com/user-attachments/assets/63509c65-2dc7-4887-aeb7-4807af780dfa)
+![image](https://github.com/user-attachments/assets/a967f53a-4a77-4f03-85ae-5a34ae1aa780)
+![image](https://github.com/user-attachments/assets/de96ef57-8d6b-408c-9d8f-e212e4419665)
+![image](https://github.com/user-attachments/assets/ee9d68d9-6d6b-4e07-a1d0-558d3420c73a)
+
+
 
 ### Personas
+![image](https://github.com/user-attachments/assets/3d9a7fab-8029-4135-899c-e68755b8b2e0)
+![image](https://github.com/user-attachments/assets/9357cf40-fcbc-4b8e-8b42-420dfe6eff8d)
+![image](https://github.com/user-attachments/assets/53a728c4-a972-4c33-a11c-602bb39c2a4d)
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
 
 # Product Design
 
