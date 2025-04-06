@@ -107,14 +107,6 @@ Nesse momento, vamos transformar os insights e validações obtidos em soluçõe
 
 
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Proposta de Valor
 
@@ -177,53 +169,35 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 ### Wireframes
 
-Estes são os protótipos de telas do sistema.
+![image](https://github.com/user-attachments/assets/f6f369f2-45e6-41ab-b3d2-a2f37fae4b6c)
+HOME
+![image](https://github.com/user-attachments/assets/23bc9bac-7cd6-420a-affe-0ac0fe565816)
+TAREFAS/LEMBRETES DO BEBE
+![image](https://github.com/user-attachments/assets/966e22bd-3873-42a6-a080-ddb78ccb6c2e)
+BLOGS
+![image](https://github.com/user-attachments/assets/d7346ccf-5cae-4483-b844-e2b89b549677)
+NUTRIÇAO
+![image](https://github.com/user-attachments/assets/5dcb235c-0275-4864-81f7-ba30d51a8f60)
+CADASTRO DE BEBES
+![image](https://github.com/user-attachments/assets/10f13f3a-22d3-42c4-851f-f28b8958210b)
+BEBES CADASTRADOS
+![image](https://github.com/user-attachments/assets/6f12fc2e-05e8-475e-adc7-d1dea9f3a79e)
+INFORMAÇOES DO BEBE
+![image](https://github.com/user-attachments/assets/893c4902-b5dd-4851-a178-4f78603f4369)
+![image](https://github.com/user-attachments/assets/1ffd5277-315c-491d-bfaf-227ab3ee8273)
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
-
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
-
-Descrição para a tela XPTO
-
-![Exemplo de wireframe](images/exemplo-wireframe.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+DADOS DO BEBE
 
 ### User Flow
 
 **✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
 
-![Exemplo de fluxo de telas](images/exemplo-userflow.png)
+![image](https://github.com/user-attachments/assets/94a68b46-f6ab-4dfd-a0b1-3aaa5c6fa741)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ### Protótipo Interativo
 
-**✳️✳️✳️ COLOQUE AQUI UM IFRAME COM SEU PROTÓTIPO INTERATIVO ✳️✳️✳️**
-
-✅ [Protótipo Interativo (MarvelApp)](https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false)  ⚠️ EXEMPLO ⚠️
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas funcionalidades como se estivesse lidando com o software pronto. Utilize as mesmas ferramentas de construção de wireframes para montagem do seu protótipo interativo. Inclua o link para o protótipo interativo do projeto.
-
+https://www.figma.com/design/6z3yxJdhkC3Wv5rZuHi6Ql/Untitled?node-id=0-1&t=SRfebDfwRGNrLCZF-1
 # Metodologia
 
 Detalhes sobre a organização do grupo e o ferramental empregado.
