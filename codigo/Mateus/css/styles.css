@@ -74,6 +74,42 @@ nav p span {
     border-bottom: 1px solid #eee;
 }
 
+.item-content {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.item-text {
+    margin-bottom: 5px;
+}
+
+.item-actions {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.action-btn {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+.edit-btn {
+    background-color: #e8f4fd;
+    color: #2c88d9;
+    border-color: #a8d2f8;
+}
+
+.delete-btn {
+    background-color: #fdeeee;
+    color: #e35b5b;
+    border-color: #f8a8a8;
+}
+
 .checkbox-container {
     position: relative;
     border: 1px solid #ccc;
@@ -107,15 +143,8 @@ nav p span {
     display: inline-block;
 }
 
-/* Quando o checkbox não está marcado, o X fica visível e o ✓ invisível */
-.checkbox-input:not(:checked) ~ .checkbox-custom .check {
-    opacity: 0.2;
-}
 
-/* Quando o checkbox está marcado, o ✓ fica visível e o X invisível */
-.checkbox-input:checked ~ .checkbox-custom .x {
-    opacity: 0.2;
-}
+
 
 .adicionar-btn {
     background-color: #005045;
@@ -128,4 +157,13 @@ nav p span {
     width: 100%;
     text-align: center;
     font-weight: bold;
+}
+
+.container-checklist {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
 }
