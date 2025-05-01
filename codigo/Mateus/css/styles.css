@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005045;
+    color: white;
+    padding: 15px 20px;
+}
+
+header img {
+    height: 40px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header ul li {
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav p {
+    font-size: 22px;
+}
+
+nav p span {
+    color: #005045;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.container-checklist {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.lista-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.item-checklist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.checkbox-container {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.checkbox-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-custom {
+    display: flex;
+    gap: 5px;
+}
+
+.checkbox-container .x {
+    color: red;
+    display: inline-block;
+}
+
+.checkbox-container .check {
+    color: green;
+    display: inline-block;
+}
+
+/* Quando o checkbox não está marcado, o X fica visível e o ✓ invisível */
+.checkbox-input:not(:checked) ~ .checkbox-custom .check {
+    opacity: 0.2;
+}
+
+/* Quando o checkbox está marcado, o ✓ fica visível e o X invisível */
+.checkbox-input:checked ~ .checkbox-custom .x {
+    opacity: 0.2;
+}
+
+.adicionar-btn {
+    background-color: #005045;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
