@@ -166,4 +166,21 @@ input[type="checkbox"]:checked::after {
 .category-consultas { color: blue; }
 .category-outros { color: orange; }
 
+@media (max-width: 768px) {
+  .layout {
+      flex-direction: column;
+  }
 
+  .filters {
+      width: 100%;
+      max-width: none;
+      border-right: none;
+      border-bottom: 2px solid #ddd;
+  }
+
+  .actions {
+      width: 100%;
+      justify-content: flex-end;
+      margin-top: 10px;
+  }
+}
