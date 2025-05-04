@@ -41,7 +41,7 @@ main {
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    width: 87%;
+ 
     text-align: center;
 }
 
@@ -51,9 +51,13 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 85%;
-    padding: 30px;
+    padding: 1rem;
     border-radius: 10px;
+}
+
+.CadastroPeso p,
+.CadastroPeso form {
+    width: 90%; 
 }
 
 .CadastroPeso > form > div {
