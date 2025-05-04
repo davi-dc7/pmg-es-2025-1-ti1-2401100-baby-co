@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Lembretes</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="filters">
+            <h2>Categorias</h2>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Medicamentos</label>
+                <label><input type="checkbox"> Consultas</label>
+                <label><input type="checkbox"> Vacinas</label>
+                <label><input type="checkbox"> Outros</label>
+            </div>
+
+            <h2>Status</h2>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Ativos</label>
+                <label><input type="checkbox"> Completados</label>
+                <label><input type="checkbox"> Próximos</label>
+                <label><input type="checkbox"> Outros</label>
+            </div>
+
+            <div class="date-filter">
+                <label>De: <input type="text" placeholder="DD/MM/AAAA"></label>
+                <label>Até: <input type="text" placeholder="DD/MM/AAAA"></label>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <form id="lembreteForm">
+                <div class="form-group">
+                    <label>Título:</label>
+                    <input type="text" id="titulo" required>
+                </div>
+                <div class="form-group">
+                    <label>Categoria:</label>
+                    <select id="categoria" required>
+                        <option value="Vacinas">Vacinas</option>
+                        <option value="Medicamentos">Medicamentos</option>
+                        <option value="Consultas">Consultas</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Descrição:</label>
+                    <input type="text" id="descricao">
+                </div>
+                <div class="form-group">
+                    <label>Data:</label>
+                    <input type="text" id="data" placeholder="DD/MM/AAAA" required>
+                </div>
+                <button type="submit">Criar Lembrete</button>
+            </form>
+
+            <ul id="lembreteList"></ul>
+        </main>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
