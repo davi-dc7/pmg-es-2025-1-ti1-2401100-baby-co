@@ -1,169 +1,230 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-body {
-    background-color: #f5f5f5;
-}
+        body {
+            background-color: #f5f5f5;
+        }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #005045;
-    color: white;
-    padding: 15px 20px;
-}
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #005045;
+            color: white;
+            padding: 15px 20px;
+        }
 
-header img {
-    height: 40px;
-}
+        header img {
+            height: 40px;
+        }
 
-header ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
+        header ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
 
-header ul li {
-    cursor: pointer;
-}
+        header ul li {
+            cursor: pointer;
+        }
 
-nav {
-    text-align: center;
-    padding: 20px 0;
-}
+        nav {
+            text-align: center;
+            padding: 20px 0;
+        }
 
-nav p {
-    font-size: 22px;
-}
+        nav p {
+            font-size: 22px;
+        }
 
-nav p span {
-    color: #005045;
-    font-weight: bold;
-}
+        nav p span {
+            color: #005045;
+            font-weight: bold;
+        }
 
-.txt {
-    font-size: 16px;
-    margin-top: 5px;
-}
+        .txt {
+            font-size: 16px;
+            margin-top: 5px;
+        }
 
-.container-checklist {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: white;
-}
+        .container-checklist {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+        }
 
-.lista-titulo {
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
+        .lista-titulo {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
 
-.item-checklist {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-}
+        .item-checklist {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
 
-.item-content {
-    flex-grow: 1;
-    margin-right: 10px;
-}
+        .item-content {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
 
-.item-text {
-    margin-bottom: 5px;
-}
+        .item-text {
+            margin-bottom: 5px;
+        }
 
-.item-actions {
-    display: flex;
-    gap: 5px;
-    margin-top: 5px;
-}
+        .item-actions {
+            display: flex;
+            gap: 5px;
+            margin-top: 5px;
+        }
 
-.action-btn {
-    font-size: 12px;
-    padding: 3px 8px;
-    border-radius: 3px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
-}
+        .action-btn {
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+        }
 
-.edit-btn {
-    background-color: #e8f4fd;
-    color: #2c88d9;
-    border-color: #a8d2f8;
-}
+        .edit-btn {
+            background-color: #e8f4fd;
+            color: #2c88d9;
+            border-color: #a8d2f8;
+        }
 
-.delete-btn {
-    background-color: #fdeeee;
-    color: #e35b5b;
-    border-color: #f8a8a8;
-}
+        .delete-btn {
+            background-color: #fdeeee;
+            color: #e35b5b;
+            border-color: #f8a8a8;
+        }
 
-.checkbox-container {
-    position: relative;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 5px 10px;
-    display: flex;
-    gap: 5px;
-    cursor: pointer;
-}
+        .checkbox-container {
+            position: relative;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            padding: 5px 10px;
+            display: flex;
+            gap: 5px;
+            cursor: pointer;
+        }
 
-.checkbox-input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
+        .checkbox-input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
 
-.checkbox-custom {
-    display: flex;
-    gap: 5px;
-}
+        .checkbox-custom {
+            display: flex;
+            gap: 5px;
+        }
 
-.checkbox-container .x {
-    color: red;
-    display: inline-block;
-}
+        .checkbox-container .x {
+            color: red;
+            display: none;
+        }
 
-.checkbox-container .check {
-    color: green;
-    display: inline-block;
-}
+        .checkbox-container .check {
+            color: green;
+            display: none;
+        }
 
+        .checkbox-input:checked ~ .checkbox-custom .check {
+            display: inline-block;
+        }
 
+        .checkbox-input:not(:checked) ~ .checkbox-custom .x {
+            display: inline-block;
+        }
 
+        .item-concluido .item-text {
+            text-decoration: line-through;
+            color: #888;
+        }
 
-.adicionar-btn {
-    background-color: #005045;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    margin-top: 20px;
-    cursor: pointer;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-}
+        .adicionar-btn {
+            background-color: #005045;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-top: 20px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+        }
 
-.container-checklist {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: white;
-}
+        /* Estilos do formulário */
+        .form-container {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            display: none;
+        }
+
+        .form-container.ativo {
+            display: block;
+        }
+
+        .form-titulo {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .salvar-btn {
+            background-color: #005045;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            flex: 1;
+            font-weight: bold;
+        }
+
+        .cancelar-btn {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            flex: 1;
+        }

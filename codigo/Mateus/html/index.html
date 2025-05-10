@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header>
-        <img src="/codigo/public/assets/images/Logo (3).png" alt="Logo">
+     <header>
+        <img src="" alt="Logo">
         <ul>
             <li>Inicio</li>
             <li>Nutrição</li>
@@ -21,108 +21,34 @@
     </header>
     
     <nav>
-        <p>Checklist de <span>Pedro</span></p>
+        <p>Checklist de <span id="nomeUsuario">Pedro</span></p>
         <p class="txt">Leve tudo o que importa para um dia perfeito!</p>
     </nav>
     
-    <aside>
-        <div class="container-checklist">
-            <div class="lista-titulo">Lista de itens:</div>
-      
-            <div class="item-checklist">
-                <div class="item-content">
-                    <div class="item-text">Fralda</div>
-                    <div class="item-actions">
-                        <button type="button" class="action-btn edit-btn">Editar</button>
-                        <button type="button" class="action-btn delete-btn">Excluir</button>
-                        <button type="button" class="action-btn delete-btn">Deletar</button>
-                    </div>
-                </div>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-custom">
-                        <span class="x">x</span>
-                        <span class="check">✓</span>
-                    </span>
-                </label>
-            </div>
-            
-            <div class="item-checklist">
-                <div class="item-content">
-                    <div class="item-text">RG</div>
-                    <div class="item-actions">
-                        <button type="button" class="action-btn edit-btn">Editar</button>
-                        <button type="button" class="action-btn delete-btn">Excluir</button>
-                        <button type="button" class="action-btn delete-btn">Deletar</button>
-                    </div>
-                </div>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-custom">
-                        <span class="x">x</span>
-                        <span class="check">✓</span>
-                    </span>
-                </label>
-            </div>
-            
-            <div class="item-checklist">
-                <div class="item-content">
-                    <div class="item-text">Carteira de vacina</div>
-                    <div class="item-actions">
-                        <button type="button" class="action-btn edit-btn">Editar</button>
-                        <button type="button" class="action-btn delete-btn">Excluir</button>
-                        <button type="button" class="action-btn delete-btn">Deletar</button>
-                    </div>
-                </div>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-custom">
-                        <span class="x">x</span>
-                        <span class="check">✓</span>
-                    </span>
-                </label>
-            </div>
-            
-            <div class="item-checklist">
-                <div class="item-content">
-                    <div class="item-text">Mamadeira</div>
-                    <div class="item-actions">
-                        <button type="button" class="action-btn edit-btn">Editar</button>
-                        <button type="button" class="action-btn delete-btn">Excluir</button>
-                        <button type="button" class="action-btn delete-btn">Deletar</button>
-                    </div>
-                </div>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-custom">
-                        <span class="x">x</span>
-                        <span class="check">✓</span>
-                    </span>
-                </label>
-            </div>
-            
-            <div class="item-checklist">
-                <div class="item-content">
-                    <div class="item-text">Chupeta</div>
-                    <div class="item-actions">
-                        <button type="button" class="action-btn edit-btn">Editar</button>
-                        <button type="button" class="action-btn delete-btn">Excluir</button>
-                        <button type="button" class="action-btn delete-btn">Deletar</button>
-                    </div>
-                </div>
-                <label class="checkbox-container">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-custom">
-                        <span class="x">x</span>
-                        <span class="check">✓</span>
-                    </span>
-                </label>
-            </div>
-            
-            <button type="button" class="adicionar-btn">Adicionar item.</button>
+    <div class="container-checklist">
+        <div class="lista-titulo">Lista de itens:</div>
+        
+        <div id="listaItens">
+            <!-- Itens do checklist serão inseridos aqui pelo JavaScript -->
         </div>
-    </aside>
+        
+        <button type="button" class="adicionar-btn" id="botaoAdicionar">Adicionar item</button>
+        
+        <div class="form-container" id="formContainer">
+            <div class="form-titulo" id="formTitulo">Adicionar novo item</div>
+            
+            <div class="form-group">
+                <label for="itemTexto" class="form-label">Nome do item:</label>
+                <input type="text" id="itemTexto" class="form-input" placeholder="Digite o nome do item">
+            </div>
+            
+            <div class="form-actions">
+                <button type="button" class="salvar-btn" id="botaoSalvar">Salvar</button>
+                <button type="button" class="cancelar-btn" id="botaoCancelar">Cancelar</button>
+            </div>
+        </div>
+    </div>
 
-
+<script src="../js//app.js"></script>
 </body>
 </html>
