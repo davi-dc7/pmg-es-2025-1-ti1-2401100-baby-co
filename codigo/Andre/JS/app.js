@@ -38,7 +38,6 @@ document.getElementById("form").addEventListener("submit", function (e) {
     sangue
   };
 
-  // Envia o novo cadastro para a API do json-server
   fetch("http://localhost:5000/bebes", {
     method: "POST",
     headers: {
