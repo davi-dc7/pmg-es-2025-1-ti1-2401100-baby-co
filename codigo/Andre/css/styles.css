@@ -37,6 +37,13 @@
     margin-left: -20%;
   } 
 
+  #textos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+
+  }
   
   #menu a {
     color: white;
