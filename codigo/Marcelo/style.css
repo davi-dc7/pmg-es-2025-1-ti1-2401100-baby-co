@@ -1,62 +1,109 @@
+/* style.css */
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(120deg, #2980b9, #6dd5fa);
-    height: 100vh;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.container {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+/* Deixando o header e footer fixos em 20vh */
+.top-section,
+.bottom-section {
+    background-color: #004F44;
+    height: 20vh;
     width: 100%;
-    max-width: 400px;
 }
+
+/* Centralizando o formulário no espaço restante */
+.form-container {
+    background-color: #FFFFFF;
+    padding: 40px 30px;
+    width: 90%;
+    max-width: 500px;
+    margin: 60px auto; /* Espaçamento superior e inferior aumentado */
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
 
 h1 {
     text-align: center;
-    color: #2980b9;
-    margin-bottom: 20px;
+    color: #004F44;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 label {
-    margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: 600;
+    color: #00352F;
+    font-size: 0.95rem;
 }
 
 input {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline-color: #2980b9;
+    padding: 12px;
+    border: 1px solid #2A7F72;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #004F44;
+    outline: none;
 }
 
 button {
-    padding: 10px;
-    background-color: #2980b9;
-    color: white;
+    padding: 14px;
+    background-color: #2A7F72;
+    color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1c5980;
+    background-color: #1e5d56;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    input, button {
+        font-size: 0.95rem;
+    }
 }
