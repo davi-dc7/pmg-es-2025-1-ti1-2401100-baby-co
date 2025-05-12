@@ -24,7 +24,6 @@ navItems.forEach(item => {
   });
 });
 
-// Ativa a primeira aba ao carregar a página
 window.addEventListener('DOMContentLoaded', () => {
   if (navItems.length > 0) {
     navItems[0].click();
@@ -66,15 +65,14 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ----- Exibir dados cadastrados no histórico -----
+
   async function loadHistórico() {
     try {
       const response = await fetch("http://localhost:3000/dadosBebe");
       const dados = await response.json();
 
       const container = document.querySelector('.mananger');
-      container.innerHTML = ''; // Limpa tudo antes de adicionar os novos cardhist
-
+      container.innerHTML = ''; 
       dados.forEach(dado => {
         const card = document.createElement('div');
         card.classList.add('cardhist');
