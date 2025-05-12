@@ -223,3 +223,25 @@ nav {
     color: white;
     background-color: #004F44;
 }
+
+.historico{
+    display: flex;
+    padding: 10%;
+}
+.mananger{
+    margin: 0 auto;
+    width: 100%; /* garanta que ela ocupe espaço suficiente */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* adiciona espaçamento entre os cards */
+}
+.cardhist{
+    width: 100%;
+    margin: 0 auto;
+    height: 4rem;
+    border-left: 8px solid #004F44;
+    box-shadow: 10px 0px 14px 0px rgba(13, 128, 82, 0.4);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+
+}
