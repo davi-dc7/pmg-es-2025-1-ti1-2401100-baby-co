@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-/* Deixando o header e footer fixos em 20vh */
+
 .top-section,
 .bottom-section {
     background-color: #004F44;
@@ -23,13 +23,13 @@ body {
     width: 100%;
 }
 
-/* Centralizando o formulário no espaço restante */
+
 .form-container {
     background-color: #FFFFFF;
     padding: 40px 30px;
     width: 90%;
     max-width: 500px;
-    margin: 60px auto; /* Espaçamento superior e inferior aumentado */
+    margin: 60px auto; 
     border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     flex-grow: 1;
@@ -89,7 +89,7 @@ button:hover {
     background-color: #1e5d56;
 }
 
-/* Responsivo */
+
 @media (max-width: 600px) {
     .form-container {
         padding: 30px 20px;
