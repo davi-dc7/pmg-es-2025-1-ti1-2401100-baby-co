@@ -1,20 +1,57 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   color: #333;
+  padding: 0 1rem;
+}
+ 
+ .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
 }
 
-/* Cabeçalho */
 
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 20px; width: 20px;
+  left: 3px; bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+
+/* cabecalho */
 
 header {
-
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -87,73 +124,108 @@ header {
             color: #a0e5cf;
         }
 
-/* Seção principal */
-main {
-  padding: 30px 20px;
-  max-width: 600px;
-  margin: 0 auto;
+
+.user-actions a {
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.2rem;
 }
 
+/* Título */
 main h2 {
-  font-size: 24px;
-  margin-bottom: 5px;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: #004d3d;
   text-align: center;
 }
 
 main p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 25px;
   text-align: center;
+  margin-bottom: 2rem;
+  color: #666;
 }
 
-/* Cartões dos bebês */
-.cartao-bebe {
-  background-color: #dbe8dd;
+/* cartoes bebês */
+#lista-bebes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 4rem auto;
+}
+
+.cards-bebes {
+  background-color: #d9e3da;
   border-radius: 12px;
-  padding: 15px;
-  margin-bottom: 20px;
+  padding: 1rem;
   display: flex;
   align-items: center;
-  gap: 15px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.cartao-bebe img {
-  width: 70px;
-  height: 70px;
+.cards-bebes img {
+  width: 64px;
+  height: 64px;
   object-fit: cover;
   border-radius: 50%;
+  margin-right: 1rem;
 }
 
-.cartao-bebe h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-  color: #014f36;
+.cards-bebes > div {
+  flex-grow: 1;
 }
 
-.cartao-bebe p {
-  font-size: 14px;
-  color: #333;
+.cards-bebes h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
 }
 
-.cartao-bebe .acoes {
-  margin-left: auto;
+.cards-bebes p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Ações (editar/deletar) */
+.actions {
   display: flex;
-  gap: 10px;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.cartao-bebe .acoes button {
+.actions button {
   background: none;
   border: none;
-  font-size: 20px;
   cursor: pointer;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
 }
 
-.cartao-bebe .editar {
-  color: #f0b000;
+.actions button:hover {
+  transform: scale(1.2);
 }
 
-.cartao-bebe .deletar {
-  color: #e00000;
+.actions .edit {
+  color: #3b7c2f;
+}
+
+.actions .delete {
+  color: #d0342c;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .cards-bebes {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cards-bebes {img {
+    margin-bottom: 0.5rem;
+  }
+
+  .actions {
+    flex-direction: row;
+    align-self: flex-end;
+  }
 }
