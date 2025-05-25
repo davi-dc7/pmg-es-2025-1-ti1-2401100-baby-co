@@ -9,7 +9,7 @@ Mateus Marçal Ribas Marques
 André Fortini de Mello
 Gabriel Felipe Santos de Sousa
 Ruan Alberto Silva
-Davi De Assunçao Coelho
+Davi D'Assunção Coelho
 Vinicius Fernandes Mantini
 Guilherme Horta Dias
 Marcelo Esteves Bernardi 

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Cabeçalho */
+
+
+header {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #005045;
+            color: white;
+            padding: 15px 20px;
+        }
+
+
+      header img {
+    height: 70px;    
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+
+        header ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+
+        header ul li {
+            cursor: pointer;
+        }
+
+
+     
+        header ul:first-of-type li {
+            position: relative;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+
+        header ul:first-of-type li::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background-color: #ffffff;
+            transition: width 0.3s ease;
+        }
+
+
+        header ul:first-of-type li:hover {
+            color: #ffffff;
+        }
+
+
+        header ul:first-of-type li:hover::after {
+            width: 100%;
+        }
+
+
+       
+        header ul:last-of-type li i {
+            font-size: 20px;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+
+
+        header ul:last-of-type li:hover i {
+            transform: scale(1.2);
+            color: #a0e5cf;
+        }
+
+/* Seção principal */
+main {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+main p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Cartões dos bebês */
+.cartao-bebe {
+  background-color: #dbe8dd;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cartao-bebe img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cartao-bebe h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #014f36;
+}
+
+.cartao-bebe p {
+  font-size: 14px;
+  color: #333;
+}
+
+.cartao-bebe .acoes {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.cartao-bebe .acoes button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cartao-bebe .editar {
+  color: #f0b000;
+}
+
+.cartao-bebe .deletar {
+  color: #e00000;
+}
